@@ -1,9 +1,112 @@
 body {
-  background-color: pink;
+  background-color:	rgba(66,230,164,0.4);
+  
 }
 #note-display {
   display: none;
 }
 #note-list {
   display: block;
+}
+
+h1 {
+font-family: 'Architects Daughter', cursive;
+color: rgba(66,230,164);
+text-align: center;
+
+}
+
+#addNote {
+  background-color: #018383;
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  outline: none;
+  border-radius: 12px;
+  color: rgba(66,230,164);
+  transition-duration: 0.9s;
+  border: none;
+  position: relative;
+  left: 200px;
+}
+
+#addNote:hover{
+  background-color: rgba(66,230,164);
+  color: #018383;
+}
+
+#hideNote {
+  background-color: #018383;
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  outline: none;
+  border-radius: 12px;
+  color: rgba(66,230,164);
+  transition-duration: 0.9s;
+  border: none;
+  text-align: center;
+  position: relative;
+  left: 600px;
+}
+
+#hideNote:hover{
+  background-color: rgba(66,230,164);
+  color: #018383;
+}
+
+#body {
+  margin-top: 100px;
+  font-family: 'Architects Daughter', cursive;
+  color: #018383;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+#note-text {
+  background-image: url("images/notepad.png");
+  border: none;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+  color: #018383;
+  outline: none;
+  cursor: url("images/pen-cursor.svg"), auto;
+  padding-top: 70px;
+  padding-left: 95px;
+  line-height: 180%;
+  margin-top: 50px;
+  text-align: left;
+}
+
+::placeholder {
+  color: #018383 ;
+  font-size: 30px;
+}
+
+#list {
+  font-family: 'Architects Daughter', cursive;
+  color: #018383;
+  list-style: none;
+}
+
+a {
+  font-family: 'Architects Daughter', cursive;
+  color: rgba(66,230,164);
+  font-size: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#listOfNotes {
+  background-color: #018383;
+  width: 500px;
+  position: relative;
+  left: 700px;
+  bottom: 500px;
+  border-radius: 12px;
 }
